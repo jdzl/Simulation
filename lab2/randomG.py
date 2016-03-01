@@ -38,7 +38,7 @@ def Cm(x0, Maxgenerator=1):
     
     a = 5
     c = 7
-    m = 8    
+    m = 1277    
     
     for iterator in range(Maxgenerator):        
         Xn_1 = (a*Xn + c)% m
