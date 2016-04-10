@@ -61,8 +61,8 @@ clock = pygame.time.Clock()
 
 # main
 while not Finish:
-    for evento in pygame.event.get():
-        if evento.type == pygame.QUIT:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
             Finish = True
 
     # Draw
